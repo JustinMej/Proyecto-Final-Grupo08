@@ -9,17 +9,15 @@
 {% endif %}
 <br>
 <br>
-
-<a href="{{ url_for('productos.NuevoProducto') }}">Agregar producto</a>
+<div>
+    <ul>
+        <li><a href="{{ url_for('productos.NuevoProducto') }}">Agregar producto</a></li>
+        <li><a href="{{ url_for('compras.home') }}"> Ver Compras </a></li>
+        <li><a href="{{ url_for('ventas.home') }}"> Ver Ventas </a></li>
+    </ul>
+</div>
 <br>
 <br>
-<a href="{{ url_for('compras.home') }}"> Ver Compras </a>
-<br>
-<br>
-<a href="{{ url_for('ventas.home') }}"> Ver Ventas </a>
-<br>
-<br>
-
 <table>
     <thead>
         <tr>

@@ -21,6 +21,7 @@ body::before{
 * {
     margin: 0 auto;
     padding: 0;
+    text-align: center;
 }
 
 head{
@@ -60,3 +61,6 @@ table, th, td {
       
   }
 
+li{
+    display: inline;
+}
